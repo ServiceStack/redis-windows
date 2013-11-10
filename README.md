@@ -13,13 +13,13 @@ Thanks to [Vagrant](http://www.vagrantup.com/) you can also run the latest linux
 
 #### 1. [Install Vagrant on Windows](http://docs-v1.vagrantup.com/v1/docs/getting-started/index.html)
 
-#### 2. Download the **[redis-vagrant.zip](https://raw.github.com/mythz/redis-windows/master/downloads/redis-vagrant.zip)** vagrant configuration
+#### 2. Download the [redis-vagrant.zip](https://raw.github.com/mythz/redis-windows/master/downloads/redis-vagrant.zip) vagrant configuration
 
     wget https://raw.github.com/mythz/redis-windows/master/downloads/redis-vagrant.zip
 
-#### 3. Extract **redis-vagrant.zip** in any folder, e.g. in `c:\vagrant-redis`
+#### 3. Extract `redis-vagrant.zip` in any folder, e.g. in `c:\vagrant-redis`
 
-#### 4. Launch the Virtual Box VM with **vagrant up**
+#### 4. Launch the Virtual Box VM with `vagrant up`
 
     cd c:\vagrant-redis
     vagrant up
@@ -36,14 +36,14 @@ These 64-bit binary releases are created by building the [Microsoft's native por
 
     wget https://raw.github.com/mythz/redis-windows/master/downloads/redis64-latest.zip
 
-#### 2. Extract **redis64-latest.zip** in any folder, e.g. in `c:\redis`
+#### 2. Extract `redis64-latest.zip` in any folder, e.g. in `c:\redis`
 
-#### 3. Run the **redis-server.exe** using the local configuration
+#### 3. Run the `redis-server.exe` using the local configuration
 
     cd c:\redis
     redis-server.exe redis.conf
 
-#### 4. Run **redis-cli.exe** to connect to your redis instance
+#### 4. Run `redis-cli.exe` to connect to your redis instance
 
     cd c:\redis
     redis-cli.exe
