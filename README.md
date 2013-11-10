@@ -32,7 +32,7 @@ _The vagrant configuration was originally from [github.com/JasonPunyon/redishobo
 
 These 64-bit binary releases are created by building the [Microsoft's native port of redis](https://github.com/msopentech/redis) which have also been published on [NuGet](http://www.nuget.org/packages/redis-64), but as it's more convenient we provide a zip of the 64-bit binaries here.
 
-#### 1. Download the **[redis64-latest.zip](https://raw.github.com/mythz/redis-windows/master/downloads/redis64-latest.zip)** native 64bit Windows port of redis
+#### 1. Download the [redis64-latest.zip](https://raw.github.com/mythz/redis-windows/master/downloads/redis64-latest.zip) native 64bit Windows port of redis
 
     wget https://raw.github.com/mythz/redis-windows/master/downloads/redis64-latest.zip
 
