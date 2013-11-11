@@ -24,9 +24,9 @@ Thanks to [Vagrant](http://www.vagrantup.com/) you can also run the latest linux
     cd c:\vagrant-redis
     vagrant up
 
-This will launch a new Ubuntu VM instance inside Virtual Box that will download and start the latest stable version of redis.
+This will launch a new Ubuntu VM instance inside Virtual Box that will automatically install and start the latest stable version of redis.
 
-_The vagrant configuration was originally from [github.com/JasonPunyon/redishobo](https://github.com/JasonPunyon/redishobo) and has been modified to use the latest stable release of Redis._
+_The vagrant configuration was originally from [JasonPunyon/redishobo](https://github.com/JasonPunyon/redishobo) and has been modified to use the latest stable release of Redis._
 
 ## Running Microsoft's native port of Redis
 
