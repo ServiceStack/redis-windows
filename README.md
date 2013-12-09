@@ -13,11 +13,11 @@ Thanks to [Vagrant](http://www.vagrantup.com/) you can also run the latest linux
 
 #### 1. [Install Vagrant on Windows](http://docs-v1.vagrantup.com/v1/docs/getting-started/index.html)
 
-#### 2. Download the [redis-vagrant.zip](https://raw.github.com/mythz/redis-windows/master/downloads/redis-vagrant.zip) vagrant configuration
+#### 2. Download the [vagrant-redis.zip](https://raw.github.com/mythz/redis-windows/master/downloads/vagrant-redis.zip) vagrant configuration
 
-    wget https://raw.github.com/mythz/redis-windows/master/downloads/redis-vagrant.zip
+    wget https://raw.github.com/mythz/redis-windows/master/downloads/vagrant-redis.zip
 
-#### 3. Extract `redis-vagrant.zip` in any folder, e.g. in `c:\vagrant-redis`
+#### 3. Extract `vagrant-redis.zip` in any folder, e.g. in `c:\vagrant-redis`
 
 #### 4. Launch the Virtual Box VM with `vagrant up`
 

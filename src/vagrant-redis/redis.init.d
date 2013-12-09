@@ -11,7 +11,6 @@
 # Description:      redis-server - Persistent key-value db
 ### END INIT INFO
 
-
 PATH=/opt/redis/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
 DAEMON=`which redis-server`
 REDIS_CLI=`which redis-cli`
