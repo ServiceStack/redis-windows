@@ -68,11 +68,11 @@ These 64-bit binary releases are created by building the [Microsoft's native por
 
 The MSOpenTech of Redis adds some useful extensions for better integration with Windows:
 
-### Running Redis as a Service
+#### Running Redis as a Service
 
 In order to better integrate with the Windows Services model, new command line arguments have been introduced to Redis. These service arguments require an elevated user context in order to connect to the service control manager. If these commands are invoked from a non-elevated context, Redis will attempt to create an elevated context in which to execute these commands. This will cause a User Account Control dialog to be displayed by Windows and may require Administrative user credentials in order to proceed.
 
-### Installing the Service
+#### Installing the Service
 
     --service-install
 
@@ -82,7 +82,7 @@ For instance:
 
     redis-server --service-install redis.windows.conf --loglevel verbose
 
-### Uninstalling the Service
+#### Uninstalling the Service
 
     --service-uninstall
 
@@ -92,7 +92,7 @@ For instance:
 
     redis-server --service-uninstall
 
-### Starting the Service
+#### Starting the Service
 
     --service-start
 
@@ -100,7 +100,7 @@ This will remove the Redis service configuration information from the registry. 
 For instance:
 redis-server --service-start
 
-### Stopping the Service
+#### Stopping the Service
 
     --service-stop
 
@@ -110,7 +110,7 @@ For instance:
 
     redis-server --service-stop
 
-### Naming the Service
+#### Naming the Service
 
     --service-name name
 
