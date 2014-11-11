@@ -78,6 +78,7 @@ In order to better integrate with the Windows Services model, new command line a
 
 This must be the first argument on the redis-server command line. Arguments after this are passed in the order they occur to Redis when the service is launched. The service will be configured as Autostart and will be launched as "NT AUTHORITY\NetworkService". Upon successful installation a success message will be displayed and Redis will exit.
 This command does not start the service.
+
 For instance:
 
     redis-server --service-install redis.windows.conf --loglevel verbose
@@ -87,7 +88,8 @@ For instance:
     --service-uninstall
 
 This will remove the Redis service configuration information from the registry. Upon successful uninstallation a success message will be displayed and Redis will exit.
-This does command not stop the service.
+This does command not stop the service.  
+
 For instance:
 
     redis-server --service-uninstall
@@ -97,8 +99,10 @@ For instance:
     --service-start
 
 This will remove the Redis service configuration information from the registry. Upon successful uninstallation a success message will be displayed and Redis will exit.
-For instance:
-redis-server --service-start
+
+For instance:  
+
+    redis-server --service-start
 
 #### Stopping the Service
 
