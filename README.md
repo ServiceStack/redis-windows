@@ -11,7 +11,7 @@ Thanks to [Vagrant](http://www.vagrantup.com/) you can also run the latest linux
 
 ## Running the latest version of Redis with Vagrant
 
-#### 1. [Install Vagrant on Windows](http://docs-v1.vagrantup.com/v1/docs/getting-started/index.html)
+#### 1. [Install Vagrant on Windows](http://docs.vagrantup.com/v2/getting-started/)
 
 #### 2. Download the [vagrant-redis.zip](https://raw.github.com/mythz/redis-windows/master/downloads/vagrant-redis.zip) vagrant configuration
 
