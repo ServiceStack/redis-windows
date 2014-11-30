@@ -36,7 +36,7 @@ These 64-bit binary releases are created by building the [Microsoft's native por
 
   - [Updates Released for Redis on Windows (2.8.4)](http://msopentech.com/blog/2014/03/24/updates-released-redis-windows/)
 
-### Current Version: 2.8.12
+### Current Version: 2.8.17
 
 #### 1. Download the [redis64-latest.zip](https://raw.github.com/mythz/redis-windows/master/downloads/redis64-latest.zip) native 64bit Windows port of redis
 
