@@ -13,9 +13,9 @@ Thanks to [Vagrant](http://www.vagrantup.com/) you can also run the latest linux
 
 #### 1. [Install Vagrant on Windows](http://docs.vagrantup.com/v2/getting-started/)
 
-#### 2. Download the [vagrant-redis.zip](https://raw.github.com/mythz/redis-windows/master/downloads/vagrant-redis.zip) vagrant configuration
+#### 2. Download the [vagrant-redis.zip](https://raw.github.com/ServiceStack/redis-windows/master/downloads/vagrant-redis.zip) vagrant configuration
 
-    wget https://raw.github.com/mythz/redis-windows/master/downloads/vagrant-redis.zip
+    wget https://raw.github.com/ServiceStack/redis-windows/master/downloads/vagrant-redis.zip
 
 #### 3. Extract `vagrant-redis.zip` in any folder, e.g. in `c:\vagrant-redis`
 
@@ -38,9 +38,9 @@ These 64-bit binary releases are created by building the [Microsoft's native por
 
 ### Current Version: 2.8.17
 
-#### 1. Download the [redis64-latest.zip](https://raw.github.com/mythz/redis-windows/master/downloads/redis64-latest.zip) native 64bit Windows port of redis
+#### 1. Download the [redis64-latest.zip](https://raw.github.com/ServiceStack/redis-windows/master/downloads/redis64-latest.zip) native 64bit Windows port of redis
 
-    wget https://raw.github.com/mythz/redis-windows/master/downloads/redis64-latest.zip
+    wget https://raw.github.com/ServiceStack/redis-windows/master/downloads/redis64-latest.zip
 
 #### 2. Extract `redis64-latest.zip` in any folder, e.g. in `c:\redis`
 
