@@ -54,7 +54,7 @@ These 64-bit binary releases are created by building the [Microsoft's native por
     cd c:\redis
     redis-cli.exe
 
-#### 5. Start plaing with redis :)
+#### 5. Start playing with redis :)
 
     redis 127.0.0.1:6379> SET foo bar
     OK
