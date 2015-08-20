@@ -40,7 +40,7 @@ These 64-bit binary releases are created by building the [Microsoft's native por
 
 ### Current Version: 2.8.21 r01 (July 29, 2015)
 
-#### 1. Download the [redis64-latest.zip](https://raw.github.com/ServiceStack/redis-windows/master/downloads/redis64-latest.zip) native 64bit Windows port of redis
+#### 1. Download the [redis64-latest.zip](https://github.com/ServiceStack/redis-windows/raw/master/downloads/redis-latest.zip) native 64bit Windows port of redis
 
     wget https://raw.github.com/ServiceStack/redis-windows/master/downloads/redis64-latest.zip
 
