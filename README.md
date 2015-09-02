@@ -129,3 +129,14 @@ The following would install and start three separate instances of Redis as a ser
     redis-server --service-start –service-name redisService2
     redis-server --service-install –service-name redisService3 –port 10003
     redis-server --service-start –service-name redisService3
+
+## [Configure Redis Sentinel Servers](https://github.com/ServiceStack/redis-config)
+
+[![Instant Redis Setup](https://raw.githubusercontent.com/ServiceStack/Assets/master/img/redis/instant-sentinel-setup.png)](https://github.com/ServiceStack/redis-config)
+
+See the
+[redis config project](https://github.com/ServiceStack/redis-config) for a quick way to setup up 
+the minimal 
+[highly available Redis Sentinel configuration](https://github.com/ServiceStack/redis-config/blob/master/README.md#3x-sentinels-monitoring-1x-master-and-2x-slaves)
+including start/stop scripts for instantly running multiple redis instances on a single (or multiple) 
+Windows, OSX or Linux servers. 
