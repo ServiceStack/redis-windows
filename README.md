@@ -140,3 +140,14 @@ the minimal
 [highly available Redis Sentinel configuration](https://github.com/ServiceStack/redis-config/blob/master/README.md#3x-sentinels-monitoring-1x-master-and-2x-slaves)
 including start/stop scripts for instantly running multiple redis instances on a single (or multiple) 
 Windows, OSX or Linux servers. 
+
+## [Redis React Browser](https://servicestack.net/redis-react)
+
+Redis React is a simple user-friendly UI for browsing data in Redis servers which takes advantages of the complex
+type conventions built in the ServiceStack.Redis Client to provide a rich, human-friendly UI for navigating related datasets, enabling a fast and fluid browsing experience for your Redis servers.
+
+#### [Live Demo](http://redisreact.servicestack.net/#/)
+
+[![](https://raw.githubusercontent.com/ServiceStack/Assets/master/img/livedemos/redis-react/home.png)](http://redisreact.servicestack.net/#/)
+
+#### Win, OSX and Linux downloads available from [Redis React Home Page](https://servicestack.net/redis-react)
