@@ -150,4 +150,4 @@ type conventions built in the ServiceStack.Redis Client to provide a rich, human
 
 [![](https://raw.githubusercontent.com/ServiceStack/Assets/master/img/livedemos/redis-react/home.png)](http://redisreact.servicestack.net/#/)
 
-#### Win, OSX and Linux downloads available from [Redis React Home Page](https://servicestack.net/redis-react)
+#### Windows, OSX and Linux downloads available from [Redis React Home Page](https://github.com/ServiceStackApps/RedisReact#download)
