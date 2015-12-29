@@ -100,7 +100,7 @@ For instance:
 
     --service-start
 
-This will remove the Redis service configuration information from the registry. Upon successful uninstallation a success message will be displayed and Redis will exit.
+This will start the Redis service. Upon successful startup a success message will be displayed and Redis service will be started.
 
 For instance:  
 
