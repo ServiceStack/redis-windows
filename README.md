@@ -49,7 +49,7 @@ These 64-bit binary releases are created by building the [Microsoft's native por
 #### 3. Run the `redis-server.exe` using the local configuration
 
     cd c:\redis
-    redis-server.exe redis.conf
+    redis-server.exe redis.windows.conf
 
 #### 4. Run `redis-cli.exe` to connect to your redis instance
 
