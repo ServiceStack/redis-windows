@@ -160,6 +160,17 @@ The following would install and start three separate instances of Redis as a ser
     redis-server --service-install –service-name redisService3 –port 10003
     redis-server --service-start –service-name redisService3
 
+## [Redis React Browser](https://servicestack.net/redis-react)
+
+Redis React is a simple user-friendly UI for browsing data in Redis servers which takes advantages of the complex
+type conventions built in the ServiceStack.Redis Client to provide a rich, human-friendly UI for navigating related datasets, enabling a fast and fluid browsing experience for your Redis servers.
+
+#### [Live Demo](http://redisreact.servicestack.net/#/)
+
+[![](https://raw.githubusercontent.com/ServiceStack/Assets/master/img/livedemos/redis-react/home.png)](http://redisreact.servicestack.net/#/)
+
+#### Windows, OSX and Linux downloads available from [Redis React Home Page](https://github.com/ServiceStackApps/RedisReact#download)
+
 ## [Configure Redis Sentinel Servers](https://github.com/ServiceStack/redis-config)
 
 [![Instant Redis Setup](https://raw.githubusercontent.com/ServiceStack/Assets/master/img/redis/instant-sentinel-setup.png)](https://github.com/ServiceStack/redis-config)
@@ -171,13 +182,3 @@ the minimal
 including start/stop scripts for instantly running multiple redis instances on a single (or multiple) 
 Windows, OSX or Linux servers. 
 
-## [Redis React Browser](https://servicestack.net/redis-react)
-
-Redis React is a simple user-friendly UI for browsing data in Redis servers which takes advantages of the complex
-type conventions built in the ServiceStack.Redis Client to provide a rich, human-friendly UI for navigating related datasets, enabling a fast and fluid browsing experience for your Redis servers.
-
-#### [Live Demo](http://redisreact.servicestack.net/#/)
-
-[![](https://raw.githubusercontent.com/ServiceStack/Assets/master/img/livedemos/redis-react/home.png)](http://redisreact.servicestack.net/#/)
-
-#### Windows, OSX and Linux downloads available from [Redis React Home Page](https://github.com/ServiceStackApps/RedisReact#download)
