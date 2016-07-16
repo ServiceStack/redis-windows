@@ -34,11 +34,12 @@ These 64-bit binary releases are created by building the [Microsoft's native por
 
 #### MS Open Announcements
 
-  - [Redis on Windows release notes](https://raw.githubusercontent.com/MSOpenTech/redis/2.8/Redis%20on%20Windows%20Release%20Notes.md)
+  - [MSOpenTech Redis on Windows 3.0 Release Notes](https://raw.githubusercontent.com/MSOpenTech/redis/3.0/Redis%20on%20Windows%20Release%20Notes.md)
+  - [MSOpenTech Redis on Windows 2.8 Release Notes](https://raw.githubusercontent.com/MSOpenTech/redis/2.8/Redis%20on%20Windows%20Release%20Notes.md)
   - [MSOpenTech's Redis on Windows](https://github.com/ServiceStack/redis-windows/blob/master/docs/msopentech-redis-on-windows.md)
   - [Updates Released for Redis on Windows (2.8.4)](http://msopentech.com/blog/2014/03/24/updates-released-redis-windows/)
 
-### Current Version: 3.0.501 (January 25, 2016)
+### Current Version: 3.0.503 (June 28, 2016)
 
 #### 1. Download the [redis-latest.zip](https://github.com/ServiceStack/redis-windows/raw/master/downloads/redis-latest.zip) native 64bit Windows port of redis
 
