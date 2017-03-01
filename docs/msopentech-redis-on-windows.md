@@ -14,7 +14,7 @@ Redis is a C code base that compiles under Visual Studio. Most of the code compi
 
 ### Networking Differences
 
-The Windows networking stack is split between user mode code and kernel mode code. Transitions between user and kernel mode are expensive operations. The POSIX networking APIs on Windows utilize a programming model that incurs significant performance loss due to the kernel/user mode transitions. Efficient Windows networking code instead uses the IO Completion Port model to reduce the impact of this behavior. The APIs used and the programming model for IO Completion is different enough that we were forced to implement a new networking layer in in Redis.
+The Windows networking stack is split between user mode code and kernel mode code. Transitions between user and kernel mode are expensive operations. The POSIX networking APIs on Windows utilize a programming model that incurs significant performance loss due to the kernel/user mode transitions. Efficient Windows networking code instead uses the IO Completion Port model to reduce the impact of this behavior. The APIs used and the programming model for IO Completion is different enough that we were forced to implement a new networking layer in Redis.
 
 ### File Descriptors
 
