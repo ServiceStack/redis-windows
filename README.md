@@ -5,11 +5,38 @@ This project contains the binary releases of MS Open Tech redis port of windows 
 
 Whilst it's recommended to use [Redis](http://redis.io) on Linux in production, it is often useful for developers on Windows platforms to have their own local version of redis running to develop with. 
 
-The 2 most popular ways of running redis on windows is to use the binary releases of [Microsoft's native port of redis](https://github.com/msopentech/redis), but as this is an unofficial port it always lags behind the latest official development of redis on linux/OSX. 
+The 3 most popular ways of running redis on windows is to use the binary releases of [Microsoft's native port of redis](https://github.com/msopentech/redis), but as this is an unofficial port it always lags behind the latest official development of redis on linux/OSX. 
 
-Thanks to [Vagrant](http://www.vagrantup.com/) you can also run the latest linux version inside a Virutal Box Linux VM, which as it lets you run the official native version of redis, is our preferred approach:
+Thanks to [Vagrant](http://www.vagrantup.com/) you can choose to run the latest linux version inside a Virutal Box Linux VM where you'll be able to run the official native version of redis.
 
-## Running the latest version of Redis with Vagrant
+Or if you have the latest version of **Windows 10** you can install [Bash on Ubuntu on Windows](https://msdn.microsoft.com/en-us/commandline/wsl/about) which will let you run the official version of Redis on Ubuntu on Windows :) This is our preferred approach as it lets you run native Ubuntu binaries on Windows more efficiently than running Linux in a VM:
+
+## Install Redis on Ubuntu on Windows
+
+#### Option 1) [Install Windows Subsystem for Linux (WSL)](https://msdn.microsoft.com/en-us/commandline/wsl/install_guide)
+
+ 1) From Start, search for **Turn Windows features on or off** (type `turn`)
+ 2) **Select Windows Subsystem for Linux (beta)**
+
+![](https://raw.githubusercontent.com/ServiceStack/Assets/master/img/redis/install-wsl.png)
+
+Once installed you can run bash on Ubuntu by typing **bash** from a Windows Command Prompt. To install the latest version of Redis we'll need to use a repository that maintains up-to-date packages for Ubuntu and Debian servers like [https://www.dotdeb.org](https://www.dotdeb.org) which you can add to Ubuntu's apt-get sources with:
+
+    $ echo deb http://packages.dotdeb.org wheezy all >> dotdeb.org.list
+    $ echo deb-src http://packages.dotdeb.org wheezy all >> dotdeb.org.list
+    $ sudo mv dotdeb.org.list /etc/apt/sources.list.d
+    $ wget -q -O - http://www.dotdeb.org/dotdeb.gpg | sudo apt-key add -
+
+Then after updating our APT cache we can install Redis with:
+
+    $ sudo apt-get update
+    $ sudo apt-get install redis-server
+
+You'll then be able to launch redis with:
+
+    $ redis-server
+
+## Option 2) Running the latest version of Redis with Vagrant
 
 #### 1. [Install Vagrant on Windows](http://docs.vagrantup.com/v2/getting-started/)
 
@@ -28,7 +55,7 @@ This will launch a new Ubuntu VM instance inside Virtual Box that will automatic
 
 _The vagrant configuration was originally from [JasonPunyon/redishobo](https://github.com/JasonPunyon/redishobo) and has been modified to use the latest stable release of Redis._
 
-## Running Microsoft's native port of Redis
+## Option 3) Running Microsoft's native port of Redis
 
 These 64-bit binary releases are created by building the [Microsoft's native port of redis](https://github.com/msopentech/redis) which have also been published on [NuGet](http://www.nuget.org/packages/redis-64), but as it's more convenient we provide a zip of the 64-bit binaries here.
 
