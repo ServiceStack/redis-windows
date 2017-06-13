@@ -11,9 +11,9 @@ Thanks to [Vagrant](http://www.vagrantup.com/) you can choose to run the latest 
 
 Or if you have the latest version of **Windows 10** you can install [Bash on Ubuntu on Windows](https://msdn.microsoft.com/en-us/commandline/wsl/about) which will let you run the official version of Redis on Ubuntu on Windows :) This is our preferred approach as it lets you run native Ubuntu binaries on Windows more efficiently than running Linux in a VM:
 
-## Install Redis on Ubuntu on Windows
+## Option 1) Install Redis on Ubuntu on Windows
 
-#### Option 1) [Install Windows Subsystem for Linux (WSL)](https://msdn.microsoft.com/en-us/commandline/wsl/install_guide)
+#### [Install Windows Subsystem for Linux (WSL)](https://msdn.microsoft.com/en-us/commandline/wsl/install_guide)
 
  1) From Start, search for **Turn Windows features on or off** (type `turn`)
  2) **Select Windows Subsystem for Linux (beta)**
