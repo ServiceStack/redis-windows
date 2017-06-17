@@ -34,7 +34,17 @@ Then after updating our APT cache we can install Redis with:
 
 You'll then be able to launch redis with:
 
-    $ redis-server
+    $ redis-server --daemonize yes
+
+Which will run redis in the background freeing your shell so you can play with it using the redis client:
+
+    $ redis-cli
+    $ 127.0.0.1:6379> SET foo bar
+    OK
+    $ 127.0.0.1:6379> GET foo
+    "bar"
+
+Which you can connect to from within bash or from your Windows desktop using the [redis-cli native Windows binary from MSOpenTech](#option-3-running-microsofts-native-port-of-redis).
 
 ## Option 2) Running the latest version of Redis with Vagrant
 
