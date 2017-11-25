@@ -7,7 +7,7 @@ Whilst it's recommended to use [Redis](http://redis.io) on Linux in production, 
 
 The 3 most popular ways of running redis on windows is to use the binary releases of [Microsoft's native port of redis](https://github.com/msopentech/redis), but as this is an unofficial port it always lags behind the latest official development of redis on linux/OSX. 
 
-Thanks to [Vagrant](http://www.vagrantup.com/) you can choose to run the latest linux version inside a Virutal Box Linux VM where you'll be able to run the official native version of redis.
+Thanks to [Vagrant](http://www.vagrantup.com/) you can choose to run the latest linux version inside a Virtual Box Linux VM where you'll be able to run the official native version of redis.
 
 Or if you have the latest version of **Windows 10** you can install [Bash on Ubuntu on Windows](https://msdn.microsoft.com/en-us/commandline/wsl/about) which will let you run the official version of Redis on Ubuntu on Windows :) This is our preferred approach as it lets you run native Ubuntu binaries on Windows more efficiently than running Linux in a VM:
 
