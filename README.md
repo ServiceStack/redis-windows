@@ -200,11 +200,13 @@ The following would install and start three separate instances of Redis as a ser
 
 ## [Redis Vue](http://templates.servicestack.net/docs/web-apps#redis-vue)
 
-Redis Vue is a simple, lightweight, versatile Redis Admin UI developed using [Vue](https://vuejs.org/v2/guide/) and [ServiceStack Templates](http://templates.servicestack.net). It supports Redis's core **Strings**, **Lists**, **Sets**, **Sorted Sets** and **Hash** data structures and custom Redis commands with its entire functionality contained in a single [/app/index.html](https://github.com/NetCoreWebApps/Redis/blob/master/app/index.html) using the dynamic [ServiceStack Templates](http://templates.servicestack.net/) language, making it easy to customize and further enhance.
+Redis Vue is a simple, lightweight, versatile Redis Admin UI developed using [Vue](https://vuejs.org/v2/guide/) and [ServiceStack .NET Core Web Apps](http://templates.servicestack.net/docs/web-apps). It supports Redis's core **Strings**, **Lists**, **Sets**, **Sorted Sets** and **Hash** data structures and custom Redis commands with its entire functionality contained in a single [/app/index.html](https://github.com/NetCoreWebApps/Redis/blob/master/app/index.html) using the dynamic [ServiceStack Templates](http://templates.servicestack.net/) language, making it easy to customize and further enhance.
 
-### [Live Demo](http://redis.web-app.io) - http://redis.web-app.io / [Source Code](https://github.com/NetCoreWebApps/Redis)
+### [Live Demo](http://redis.web-app.io) - http://redis.web-app.io
 
 [![](http://templates.servicestack.net/assets/img/screenshots/redis.png)](http://redis.web-app.io)
+
+#### Download for Windows, OSX and Linux https://github.com/NetCoreWebApps/Redis
 
 ## [Redis React Browser](https://servicestack.net/redis-react)
 
