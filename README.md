@@ -5,7 +5,7 @@ This project contains the binary releases of MS Open Tech redis port of windows 
 
 Whilst it's recommended to use [Redis](http://redis.io) on Linux in production, it is often useful for developers on Windows platforms to have their own local version of redis running to develop with. 
 
-The 3 most popular ways of running redis on windows is to use the binary releases of [Microsoft's native port of redis](https://github.com/msopentech/redis), but as this is an unofficial port it always lags behind the latest official development of redis on linux/OSX. 
+The 3 most popular ways of running redis on windows is to use the binary releases of [Microsoft's native port of redis](https://github.com/msopentech/redis), but as this is an unofficial port it always lags behind the latest official development of redis on Linux/OSX. 
 
 Thanks to [Vagrant](http://www.vagrantup.com/) you can choose to run the latest linux version inside a Virtual Box Linux VM where you'll be able to run the official native version of redis.
 
@@ -114,8 +114,7 @@ If you installed Redis using the MSI package, then Redis was already installed a
 If you would like to change its settings, you can update the redis.windows-service.conf file and then restart the Redis 
 service (Run -> services.msc -> Redis -> Restart). 
 
-During installation of the MSI you can either use the installer’s user interface to update the port that Redis listens 
-at and the firewall exception or run it silently without a UI. The following examples show how to install from the command line:
+During installation of the MSI you can either use the installer’s user interface to update the port that Redis listens to and the firewall exception or run it silently without a UI. The following examples show how to install from the command line:
 
 #### default install (port 6379 and firewall exception ON):
 
@@ -145,7 +144,7 @@ This will cause a User Account Control dialog to be displayed by Windows and may
     --service-install
 
 This must be the first argument on the redis-server command line. Arguments after this are passed in the order they occur to Redis when the service is launched. 
-The service will be configured as Autostart and will be launched as "NT AUTHORITY\NetworkService". Upon successful installation a success message will be displayed and Redis will exit.
+The service will be configured as Autostart and will be launched as "NT AUTHORITY\NetworkService". Upon successful installation, a success message will be displayed and Redis will exit.
 
 This command does not start the service.
 
@@ -157,8 +156,8 @@ For instance:
 
     --service-uninstall
 
-This will remove the Redis service configuration information from the registry. Upon successful uninstallation a success message will be displayed and Redis will exit.
-This does command not stop the service.  
+This will remove the Redis service configuration information from the registry. Upon successful uninstallation, a success message will be displayed and Redis will exit.
+This does command not to stop the service.  
 
 For instance:
 
@@ -168,7 +167,7 @@ For instance:
 
     --service-start
 
-This will start the Redis service. Upon successful startup a success message will be displayed and Redis service will be started.
+This will start the Redis service. Upon successful startup, a success message will be displayed and Redis service will be started.
 
 For instance:  
 
@@ -178,7 +177,7 @@ For instance:
 
     --service-stop
 
-This will stop the Redis service. Upon successful termination a success message will be displayed and Redis will exit.
+This will stop the Redis service. Upon successful termination, a success message will be displayed and Redis will exit.
 
 For instance:
 
