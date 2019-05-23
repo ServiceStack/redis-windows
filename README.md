@@ -20,17 +20,19 @@ Or if you have the latest version of **Windows 10** you can install [Bash on Ubu
 
 ![](https://raw.githubusercontent.com/ServiceStack/Assets/master/img/redis/install-wsl.png)
 
-Once installed you can run bash on Ubuntu by typing **bash** from a Windows Command Prompt. To install the latest version of Redis we'll need to use a repository that maintains up-to-date packages for Ubuntu and Debian servers like [https://www.dotdeb.org](https://www.dotdeb.org) which you can add to Ubuntu's apt-get sources with:
-
-    $ echo deb http://packages.dotdeb.org wheezy all >> dotdeb.org.list
-    $ echo deb-src http://packages.dotdeb.org wheezy all >> dotdeb.org.list
-    $ sudo mv dotdeb.org.list /etc/apt/sources.list.d
-    $ wget -q -O - http://www.dotdeb.org/dotdeb.gpg | sudo apt-key add -
-
-Then after updating our APT cache we can install Redis with:
+Once installed you can run bash on Ubuntu by typing **bash** from a Windows 
+Command Prompt. To install the latest version of Redis we first need to install 
+some prerequisites:
 
     $ sudo apt-get update
-    $ sudo apt-get install redis-server
+    $ sudo apt-get install make
+    $ sudo apt-get install gcc
+
+Then follow the [official installation guide](https://redis.io/topics/quickstart) 
+to download, build and install the latest stable version. **NOTE:** Installing 
+the binaries using `make install` will not work. You need to copy them manually 
+to `/usr/bin` (just like described in the guide, except that they use 
+`/usr/local/bin` - which is the problem).
 
 You'll then be able to launch redis with:
 
